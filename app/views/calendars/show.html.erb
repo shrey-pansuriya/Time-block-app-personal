@@ -14,12 +14,13 @@
             <h3><%= event.name %></h3>
             <p>
               <strong>Start Time:</strong> <%= event.start_time.strftime('%I:%M %p') %><br>
-              <strong>End Time:  </strong> <%= event.end_time.strftime('%I:%M %p') %>
+              <strong>End Time:</strong> <%= event.end_time.strftime('%I:%M %p') %>
             </p>
           </div>
         <% end %>
       </div>
     </div>
   <% end %>
+  <% end %> <!-- Add this end keyword -->
 </div>
 <%= link_to 'Add New Event', new_event_path, class: 'btn btn-primary' %>
