@@ -82,7 +82,7 @@
 
 .event {
   /* border: 1px solid #0056b3; */ /* Uncomment this line if you want a border */
-  margin-bottom: 0px; /* Adds space between events */
+  margin-bottom: 100px; /* Adds space between events */
   padding: 10px; /* Adds space inside the border */
   text-align: center;
 }
