@@ -131,12 +131,13 @@
 }
 
 a{
+  font-family: 'Montserrat', serif;
   color: #3366ff;
   text-decoration: none;
 }
 
 li{
-  font-size: 20px;
+  font-size: 5px;
 }
 
 .kalam-light {
