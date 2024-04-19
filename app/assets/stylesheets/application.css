@@ -101,7 +101,8 @@
 
 .event-wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
   border-radius: 8px;
   border: 4px solid #000000; /* Adjust border color and width as needed */
   padding: 10px;
