@@ -74,13 +74,14 @@
 
 
 .events-container {
-  background-color: #ff0000; /* Replace #0056b3 with your desired background color */
+  background-color: #0056b3; /* Replace #0056b3 with your desired background color */
   padding: 20px; /* Adjust padding as needed */
   margin: auto; /* Center the container horizontally */
   width: 90%; /* Adjust width as needed */
 }
 
 .event {
+  font-family: 'Montserrat', serif; /* Use Montserrat font for the entire page */
   /* border: 1px solid #0056b3; */ /* Uncomment this line if you want a border */
   margin-bottom: 5px; /* Adds space between events */
   padding: 10px; /* Adds space inside the border */
