@@ -1,0 +1,19 @@
+<%= form_with(model: @event, local: true) do |form| %>
+    <div class="edit-event-form">
+    <div>
+        <%= form.label :name %>
+        <%= form.text_field :name, class: "input-text"%>
+    </div>
+    <div>
+        <%= form.label :start_time %>
+        <%= form.datetime_select :start_time, {ampm: true}, class: "input"%>
+    </div>
+    <div>
+        <%= form.label :end_time %>
+        <%= form.datetime_select :end_time, {ampm: true}, class: "input" %>
+    </div>
+    <div>
+        <%= form.submit "Create Event", class: "btn btn-primary" %>
+    </div>
+    </div>
+<% end %>

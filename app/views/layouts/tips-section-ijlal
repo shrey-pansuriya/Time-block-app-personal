@@ -1,0 +1,19 @@
+require 'sinatra'
+require 'sinatra/reloader' if development?
+
+# database for storing tips
+TIPS = [
+  "Plan your tasks daily.",
+  "Allocate time for interruptions.",
+  "Review your schedule regularly."
+]
+
+get '/' do
+  @tips = TIPS
+  erb :index
+end
+
+post '/add_tip' do
+  TIPS << params[:new_tip] unless params[:new_tip].strip.empty?
+  redirect '/'
+end

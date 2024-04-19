@@ -1,0 +1,12 @@
+#testing curosr highlight feature 
+require 'minitest/autorun'
+require_relative 'highlight_feature'  
+
+class HighlightFeatureTest < Minitest::Test
+  # Test for Statement Coverage
+  def test_generate_highlight_script
+    result = generate_highlight_script
+    assert_includes result, "mouseover", "Should include mouseover event"
+    assert_includes result, "mouseout", "Should include mouseout event"
+  end
+end

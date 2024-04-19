@@ -1,0 +1,17 @@
+
+#testing curosr highlight feature 
+require 'minitest/autorun'
+require_relative 'highlight_feature'  
+
+class HighlightFeatureTest < Minitest::Test
+# Test for Condition Coverage
+  def test_conditions_in_option_generation
+    high_contrast, low_vision = true, false
+    result = generate_options(high_contrast, low_vision)
+    assert_equal 'high-contrast', result
+
+    high_contrast, low_vision = false, true
+    result = generate_options(high_contrast, low_vision)
+    assert_equal 'large-text', result
+  end
+end 
