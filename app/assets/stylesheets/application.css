@@ -87,6 +87,18 @@
   text-align: center;
 }
 
+.priority-low {
+  background-color: lightblue; /* Light blue background for low priority */
+}
+
+.priority-medium {
+  background-color: lightyellow; /* Light yellow background for medium priority */
+}
+
+.priority-high {
+  background-color: lightcoral; /* Light coral background for high priority */
+}
+
 .event-wrapper{
   display: flex;
   justify-content: space-between;
