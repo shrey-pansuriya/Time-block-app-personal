@@ -197,3 +197,10 @@ li{
   margin: 10px;
 }
 
+body {
+  font-family: 'Montserrat', serif; /* Use Montserrat font for the entire page */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', serif; /* Use Roboto font for headings */
+}
