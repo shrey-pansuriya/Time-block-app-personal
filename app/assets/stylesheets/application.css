@@ -81,11 +81,13 @@
 }
 
 .event {
-  margin-bottom: 15px;
-  padding: 10px;
+  margin: 0; /* Remove any margin */
+  padding: 0; /* Remove any padding */
   text-align: center;
+  border: none; /* Remove any border inherited from parent elements */
   border-radius: 8px; /* Add border radius to match .event-wrapper */
 }
+
 
 .priority-low {
   background-color: lightblue; /* Light blue background for low priority */
