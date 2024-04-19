@@ -74,20 +74,18 @@
 
 
 .events-container {
-  background-color: #0056b3; /* Replace #gray with the actual gray color code you want to use */
-  padding: 20px; /* Or any other value that suits your design */
-  margin: auto; /* This will center the container if it has a set width */
-  width: 90%; /* Or 100%, depending on your layout requirements */
+  background-color: #0056b3; /* Replace #0056b3 with your desired background color */
+  padding: 20px; /* Adjust padding as needed */
+  margin: auto; /* Center the container horizontally */
+  width: 90%; /* Adjust width as needed */
 }
 
 .event {
-  margin: 0; /* Remove any margin */
-  padding: 0; /* Remove any padding */
+  /* border: 1px solid #0056b3; */ /* Uncomment this line if you want a border */
+  margin-bottom: 15px; /* Adds space between events */
+  padding: 10px; /* Adds space inside the border */
   text-align: center;
-  border: none; /* Remove any border inherited from parent elements */
-  border-radius: 8px; /* Add border radius to match .event-wrapper */
 }
-
 
 .priority-low {
   background-color: lightblue; /* Light blue background for low priority */
@@ -106,9 +104,9 @@
   justify-content: space-between;
   background-color: white;
   border-radius: 8px;
+  border: 4px solid #757575; /* Adjust border color and width as needed */
   padding: 10px;
   color: aquamarine;
-  border: none; /* Remove any border */
 }
 
 .cal-date{
