@@ -81,10 +81,10 @@
 }
 
 .event {
-  /*border: 1px solid #0056b3; /* Replace #000000 with the color code for the border */
-  margin-bottom: 15px; /* Adds space between events */
-  padding: 10px; /* Adds space inside the border */
+  margin-bottom: 15px;
+  padding: 10px;
   text-align: center;
+  border-radius: 8px; /* Add border radius to match .event-wrapper */
 }
 
 .priority-low {
