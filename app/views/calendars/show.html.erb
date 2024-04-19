@@ -7,7 +7,7 @@
       <hr>
       <% events.each_with_index do |event, index| %>
         <div class="event-wrapper">
-          <div class="event-container" style="top: <%= index * 100 + 'px' %>;">
+        <div class="event-container" style="top: <%= (index * 100).to_s + 'px' %>;">
             <%= link_to edit_event_path(event) do %>
               <div class="event <%= "priority-#{event.priority}" %>">
                 <h3><%= event.name %></h3>
