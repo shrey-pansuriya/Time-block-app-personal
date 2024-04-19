@@ -81,7 +81,6 @@
 }
 
 .event {
-  font-family: 'Montserrat', serif; /* Use Montserrat font for the entire page */
   /* border: 1px solid #0056b3; */ /* Uncomment this line if you want a border */
   margin-bottom: 5px; /* Adds space between events */
   padding: 10px; /* Adds space inside the border */
@@ -131,8 +130,7 @@
 }
 
 a{
-  font-family: 'Montserrat', serif;
-  color: #ff0080;
+  color: #3366ff;
   text-decoration: none;
 }
 
@@ -204,5 +202,5 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto', serif; /* Use Roboto font for headings */
+  font-family: 'Roboto', sans-serif; /* Use Roboto font for headings */
 }
