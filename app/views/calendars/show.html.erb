@@ -1,6 +1,8 @@
 <div class="week-calendar-container">
   <div class="cal-week">
     <%= week_calendar events: @events do |date, events| %>
+      <!-- code for rendering the calendar week -->
+    <% end %> <!-- added end statement here -->
   </div>
   <div class="cal-date">
     <%= date.strftime('%B %d, %Y') %>
